@@ -13,7 +13,7 @@ const Contact = () => {
 			<div className='container contact__container'>
 				<div className='contact__options'>
 					<article className='contact__option'>
-						<MdOutlineEmail />
+						<MdOutlineEmail className='contact__option-icon' />
 						<h4>Email</h4>
 						<h5>dummy@gmail.com</h5>
 						<a href='mailto:dummy@gmail.com' target='_blank'>
@@ -21,7 +21,7 @@ const Contact = () => {
 						</a>
 					</article>
 					<article className='contact__option'>
-						<RiMessengerLine />
+						<RiMessengerLine className='contact__option-icon' />
 						<h4>Messenger</h4>
 						<h5>CruzeQtutorials</h5>
 						<a href='https://m.me/your.profile' target='_blank'>
@@ -29,7 +29,7 @@ const Contact = () => {
 						</a>
 					</article>
 					<article className='contact__option'>
-						<BsWhatsapp />
+						<BsWhatsapp className='contact__option-icon' />
 						<h4>Whatsapp</h4>
 						<h5>+12345678</h5>
 						<a
