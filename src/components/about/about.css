@@ -4,6 +4,10 @@
 	background-image: url(../../assets/asfalt-dark.png);
 }
 
+#about h3 {
+	color: black;
+}
+
 .about__container {
 	display: grid;
 	grid-template-columns: 35% 50%;
