@@ -78,7 +78,7 @@ const Contact = () => {
 					<textarea
 						name='message'
 						rows='7'
-						placeholder='Your message'
+						placeholder='Your Message'
 						required
 					></textarea>
 					<button tyoe='submit' className='btn btn-primary'>
