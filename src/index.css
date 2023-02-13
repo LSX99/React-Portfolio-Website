@@ -14,10 +14,10 @@
 :root {
 	--color-bg: #29292d;
 	--color-bg-variant: #f5deb3;
-	--color-primary: #bf8c4e;
+	--color-primary: #d29a56;
 	--color-primary-variant: #fdeedc;
 	--color-white: #ffffff;
-	--color-light: #7a7878;
+	--color-light: #6d6c6c;
 
 	--transition: all 400ms ease;
 
@@ -76,8 +76,14 @@ section > h2 {
 	margin-bottom: 3rem;
 }
 
+.text-primary {
+	color: var(--color-primary-variant);
+	cursor: default;
+}
+
 .text-light {
 	color: var(--color-light);
+	cursor: default;
 }
 
 a {

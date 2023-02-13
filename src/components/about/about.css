@@ -42,8 +42,8 @@
 }
 
 .about__card {
-	background: var(--color-bg);
-	border: 1px solid transparent;
+	background: var(--color-primary);
+	border: 2px solid transparent;
 	border-radius: 1rem;
 	padding: 2rem;
 	text-align: center;
@@ -52,13 +52,19 @@
 
 .about__card:hover {
 	background: transparent;
-	border-color: var(--color-primary-variant);
+	color: var(--color-primary-variant);
+	border-color: var(--color-primary);
 	cursor: default;
 }
 
-.about__icon {
+.about__card:hover h5,
+.about__card:hover .about__icon {
 	color: var(--color-primary);
-	font-size: 1.4rem;
+}
+
+.about__icon {
+	color: var(--color-white);
+	font-size: 2rem;
 	margin-bottom: 1rem;
 }
 
@@ -74,6 +80,11 @@
 .about__content p {
 	margin: 2rem 0 2.6rem;
 	color: var(--color-light);
+}
+
+.about__content a {
+	background-color: var(--color-bg);
+	color: var(--color-white);
 }
 
 /* ========================== MEDIA QUERIES (MEDIUM DEVICES) ============================== */
