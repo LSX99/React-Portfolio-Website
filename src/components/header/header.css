@@ -4,10 +4,18 @@ header {
 	overflow: hidden;
 }
 
-.header_container {
+.header__container {
 	text-align: center;
 	height: 100%;
 	position: relative;
+}
+
+.header__container h1 {
+	font-size: 4rem;
+}
+
+.header__container h5 {
+	font-size: 1rem;
 }
 
 /* ===================== CTA ====================== */
@@ -39,10 +47,13 @@ header {
 /* ===================== ME ====================== */
 .me {
 	background: linear-gradient(var(--color-bg-variant), transparent);
-	width: 22rem;
-	height: 30rem;
-	position: absolute;
-	left: calc(50% - 11rem);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 50rem;
+	/* position: absolute; */
+	/* left: calc(50% - 11rem); */
 	margin-top: 4rem;
 	border-radius: 12rem 12rem 0 0;
 	overflow: hidden;

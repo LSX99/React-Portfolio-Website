@@ -49,8 +49,8 @@ const Contact = () => {
 					<article className='contact__option'>
 						<RiMessengerLine className='contact__option-icon' />
 						<h4>Messenger</h4>
-						<h5>CruzeQtutorials</h5>
-						<a href='https://m.me/your.profile' target='_blank'>
+						<h5>Ken Lim Sheng Xiang</h5>
+						<a href='https://m.me/kenlim.shengxiang/' target='_blank'>
 							Send a Message
 						</a>
 					</article>
