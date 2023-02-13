@@ -1,3 +1,9 @@
+#services {
+	background-color: var(--color-bg-variant);
+	padding: 50px 0px;
+	background-image: url(../../assets/asfalt-dark.png);
+}
+
 .services__container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);

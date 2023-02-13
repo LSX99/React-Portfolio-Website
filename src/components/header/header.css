@@ -30,15 +30,15 @@ header {
 }
 
 .header_socials::after {
-	content: "";
+	content: '';
 	width: 1px;
 	height: 2rem;
-	background: var(--color-primary);
+	background: var(--color-primary-variant);
 }
 
 /* ===================== ME ====================== */
 .me {
-	background: linear-gradient(var(--color-primary), transparent);
+	background: linear-gradient(var(--color-bg-variant), transparent);
 	width: 22rem;
 	height: 30rem;
 	position: absolute;

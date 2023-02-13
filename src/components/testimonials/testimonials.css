@@ -1,3 +1,9 @@
+#testimonials {
+	background-color: var(--color-bg-variant);
+	padding: 50px 0px;
+	background-image: url(../../assets/asfalt-dark.png);
+}
+
 .container.testimonials__container {
 	width: 40%;
 	padding-bottom: 4rem;
