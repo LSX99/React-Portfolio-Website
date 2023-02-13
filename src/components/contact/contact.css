@@ -54,6 +54,10 @@
 	color: var(--color-light);
 }
 
+.text-wrap {
+	word-wrap: break-word;
+}
+
 /* =================== FORM ======================= */
 form {
 	display: flex;
