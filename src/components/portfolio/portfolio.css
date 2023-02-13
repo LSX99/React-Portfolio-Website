@@ -1,3 +1,9 @@
+#portfolio {
+	background-color: var(--color-bg-variant);
+	padding: 50px 0px;
+	background-image: url(../../assets/asfalt-dark.png);
+}
+
 .portfolio__container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -5,7 +11,7 @@
 }
 
 .portfolio__item {
-	background: var(--color-bg-variant);
+	background: var(--color-primary);
 	padding: 1.3rem;
 	border-radius: 2rem;
 	border: 1px solid transparent;
@@ -13,7 +19,7 @@
 }
 
 .portfolio__item:hover {
-	border-color: var(--color-primary-variant);
+	border-color: var(--color-primary);
 	background: transparent;
 }
 
