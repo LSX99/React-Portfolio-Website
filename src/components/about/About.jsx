@@ -1,9 +1,9 @@
 import React from 'react';
 import './about.css';
 import ME from '../../assets/me-about.jpg';
-import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
-import { VscFolderLibrary } from 'react-icons/vsc';
+import { BsBook } from 'react-icons/bs';
+import { MdHearing } from 'react-icons/md';
+import { BsPeopleFill } from 'react-icons/bs';
 
 const About = () => {
 	return (
@@ -21,29 +21,32 @@ const About = () => {
 				<div className='about__content'>
 					<div className='about__cards'>
 						<article className='about__card'>
-							<FaAward className='about__icon' />
-							<h5>Experience</h5>
-							<small>3+ Years Experience</small>
+							<BsBook className='about__icon' />
+							<h5>Listen</h5>
+							<small>Active Listener</small>
 						</article>
 
 						<article className='about__card'>
-							<FiUsers className='about__icon' />
-							<h5>Clients</h5>
-							<small>300+ clients worldwide</small>
+							<MdHearing className='about__icon' />
+							<h5>Learn</h5>
+							<small>Driven Learner</small>
 						</article>
 
 						<article className='about__card'>
-							<VscFolderLibrary className='about__icon' />
-							<h5>Projects</h5>
-							<small>80+ Completed Projects</small>
+							<BsPeopleFill className='about__icon' />
+							<h5>Lead</h5>
+							<small>Leader by Example</small>
 						</article>
 					</div>
 
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ut
-						illum voluptatem eos aliquid, tenetur quia explicabo veritatis?
-						Nesciunt eos facere voluptas vel explicabo voluptates dignissimos
-						unde illum quibusdam suscipit.
+					<p align='justify'>
+						An active listener, driven learner and leader by example. I take
+						advantage of every opportunity to learn, understand different
+						perspectives and empathizing with them while letting my actions
+						speak louder then words. By prioritizing these three values, I hope
+						to continue on my path of personal growth, foster meaningful
+						connections with others and making a positive impact on the people
+						around me.
 					</p>
 
 					<a href='#contact' className='btn btn-primary'>
