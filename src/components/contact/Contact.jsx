@@ -42,7 +42,7 @@ const Contact = () => {
 						<MdOutlineEmail className='contact__option-icon' />
 						<h4>Email</h4>
 						<h5 className='text-wrap'>shengxianglim99@gmail.com</h5>
-						<a href='mailto:dummy@gmail.com' target='_blank'>
+						<a href='mailto:shengxianglim99@@gmail.com' target='_blank'>
 							Send a Message
 						</a>
 					</article>
@@ -59,9 +59,8 @@ const Contact = () => {
 						<h4>Whatsapp</h4>
 						<h5>+65 96637029</h5>
 						<a
-							href='https://api.whatsapp.com/send?phone+12345678'
-							target='_blank'
-						>
+							href='https://api.whatsapp.com/send?phone=6596637029'
+							target='_blank'>
 							Send a Message
 						</a>
 					</article>
@@ -79,8 +78,7 @@ const Contact = () => {
 						name='message'
 						rows='7'
 						placeholder='Your Message'
-						required
-					></textarea>
+						required></textarea>
 					<button tyoe='submit' className='btn btn-primary'>
 						Send Message
 					</button>
