@@ -1,54 +1,51 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.jpg';
-import IMG2 from '../../assets/portfolio2.jpg';
-import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
-import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.jpg';
+import IMG1 from '../../assets/portfoliowebsite.png';
+import IMG2 from '../../assets/dicegame.png';
+import IMG3 from '../../assets/simongame.png';
+import IMG4 from '../../assets/tictactoe.png';
+import IMG5 from '../../assets/blackjack.png';
 
 const data = [
 	{
 		id: 1,
 		image: IMG1,
-		title: 'Eclipse - Figma dashboard UI kit for data design web apps',
-		github: 'https://github.com',
-		demo: 'https://dribbble.com/shots/20579260-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps',
+		title: 'Personal ePortfolio',
+		p: 'Built a functional and responsive portfolio website using ReactJS; Implemented WhatsApp API, Facebook Messenger API and EmailJS',
+		github: 'https://github.com/LSX99/React-Portfolio-Website',
+		// demo: '',
 	},
 	{
 		id: 2,
 		image: IMG2,
-		title: 'Orion UI kit – data visualization and charts templates for Figma',
-		github: 'https://github.com',
-		demo: 'https://dribbble.com/shots/20512784-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma',
+		title: 'Dice Game Website',
+		p: 'Used the Document Object Model (DOM) to manipulate HTML element attributes; Deployed website using Github Pages',
+		github: 'https://github.com/LSX99/Dice-Game-',
+		// demo: '',
 	},
 	{
 		id: 3,
 		image: IMG3,
-		title: 'Orion UI kit – data visualization and charts templates for Figma',
-		github: 'https://github.com',
-		demo: 'https://dribbble.com/shots/20579260-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps',
+		title: 'Simon Game Website',
+		p: 'Used jQuery to manipulate styles, text and attributes on top of adding event listeners, website animations, adding and removing elements',
+		github: 'https://github.com/LSX99/Simon-Game',
+		// demo: '',
 	},
 	{
 		id: 4,
 		image: IMG4,
-		title: 'Eclipse - Figma dashboard UI kit for data design web apps',
-		github: 'https://github.com',
-		demo: 'https://dribbble.com/shots/20579260-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps',
+		title: 'Tic Tac Toe Game (Python)',
+		p: ' Used Python to display board game, allow user to interact and update variables in game before displaying updated visual back to user',
+		github: 'https://github.com/LSX99/TicTaeToe---Python',
+		// demo: '',
 	},
 	{
 		id: 5,
 		image: IMG5,
-		title: 'Eclipse - Figma dashboard UI kit for data design web apps',
-		github: 'https://github.com',
-		demo: 'https://dribbble.com/shots/20579260-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps',
-	},
-	{
-		id: 6,
-		image: IMG6,
-		title: 'Eclipse - Figma dashboard UI kit for data design web apps',
-		github: 'https://github.com',
-		demo: 'https://dribbble.com/shots/20579260-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps',
+		title: 'Blackjack Game (Python)',
+		p: 'Used Python Object Oriented Programming to create different classes that interact with each other within the game logic.',
+		github: 'https://github.com/LSX99/BlackJack-Python',
+		// demo: '',
 	},
 ];
 
@@ -59,20 +56,24 @@ const portfolio = () => {
 			<h2>My Portfolio</h2>
 
 			<div className='container portfolio__container'>
-				{data.map(({ id, image, title, github, demo }) => {
+				{data.map(({ id, image, title, github, p, demo }) => {
 					return (
 						<article className='portfolio__item'>
 							<div key={id} className='portfolio__item-image'>
 								<img src={image} alt={title} />
 							</div>
 							<h3>{title}</h3>
+							<div>
+								<p>{p}</p>
+							</div>
+							<br></br>
 							<div className='portfolio__item-cta'>
-								<a href={github} className='btn' target='_blank'>
+								<a href={github} className='btn btn-primary' target='_blank'>
 									Github
 								</a>
-								<a href={demo} className='btn btn-primary' target='_blank'>
+								{/* <a href={demo} className='btn btn-primary' target='_blank'>
 									Live Demo
-								</a>
+								</a> */}
 							</div>
 						</article>
 					);
