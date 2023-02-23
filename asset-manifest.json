@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio-Website/static/css/main.37b3fd6c.css",
+    "main.js": "/React-Portfolio-Website/static/js/main.9369de1b.js",
+    "static/media/me.png": "/React-Portfolio-Website/static/media/me.821ecddcb9953b46bf75.png",
+    "static/media/me-about.jpg": "/React-Portfolio-Website/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "static/media/Lim Sheng Xiang CV.pdf": "/React-Portfolio-Website/static/media/Lim Sheng Xiang CV.74b68a2d6815cef05391.pdf",
+    "static/media/dicegame.png": "/React-Portfolio-Website/static/media/dicegame.c3f6f2a17b6f2fad04d5.png",
+    "static/media/portfoliowebsite.png": "/React-Portfolio-Website/static/media/portfoliowebsite.b071a7e9757f5a2341e9.png",
+    "static/media/simongame.png": "/React-Portfolio-Website/static/media/simongame.969735cc49d1576dea8a.png",
+    "static/media/asfalt-dark.png": "/React-Portfolio-Website/static/media/asfalt-dark.12fc1a7a26724fd592f6.png",
+    "static/media/asfalt-light.png": "/React-Portfolio-Website/static/media/asfalt-light.0dc0248a94662fa2129c.png",
+    "static/media/tictactoe.png": "/React-Portfolio-Website/static/media/tictactoe.5da99d6bb2a9da4032f2.png",
+    "static/media/blackjack.png": "/React-Portfolio-Website/static/media/blackjack.6609618f09528b81950f.png",
+    "index.html": "/React-Portfolio-Website/index.html",
+    "main.37b3fd6c.css.map": "/React-Portfolio-Website/static/css/main.37b3fd6c.css.map",
+    "main.9369de1b.js.map": "/React-Portfolio-Website/static/js/main.9369de1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37b3fd6c.css",
+    "static/js/main.9369de1b.js"
+  ]
+}
