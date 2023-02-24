@@ -13,7 +13,7 @@ const data = [
 		title: 'Personal ePortfolio',
 		p: 'Built a functional and responsive portfolio website using ReactJS; Implemented WhatsApp API, Facebook Messenger API and EmailJS',
 		github: 'https://github.com/LSX99/React-Portfolio-Website',
-		// demo: '',
+		demo: 'https://lsx99.github.io/React-Portfolio-Website/',
 	},
 	{
 		id: 2,
@@ -21,7 +21,7 @@ const data = [
 		title: 'Dice Game Website',
 		p: 'Used the Document Object Model (DOM) to manipulate HTML element attributes; Deployed website using Github Pages',
 		github: 'https://github.com/LSX99/Dice-Game-',
-		// demo: '',
+		demo: 'https://lsx99.github.io/Dice-Game-/',
 	},
 	{
 		id: 3,
@@ -29,7 +29,7 @@ const data = [
 		title: 'Simon Game Website',
 		p: 'Used jQuery to manipulate styles, text and attributes on top of adding event listeners, website animations, adding and removing elements',
 		github: 'https://github.com/LSX99/Simon-Game',
-		// demo: '',
+		demo: 'https://lsx99.github.io/Simon-Game/',
 	},
 	{
 		id: 4,
@@ -71,9 +71,9 @@ const portfolio = () => {
 								<a href={github} className='btn btn-primary' target='_blank'>
 									Github
 								</a>
-								{/* <a href={demo} className='btn btn-primary' target='_blank'>
+								<a href={demo} className='btn btn-primary' target='_blank'>
 									Live Demo
-								</a> */}
+								</a>
 							</div>
 						</article>
 					);
