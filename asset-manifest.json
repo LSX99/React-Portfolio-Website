@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio-Website/static/css/main.37b3fd6c.css",
-    "main.js": "/React-Portfolio-Website/static/js/main.cae2ce35.js",
+    "main.js": "/React-Portfolio-Website/static/js/main.1f820ad4.js",
     "static/media/me-about.png": "/React-Portfolio-Website/static/media/me-about.50cee23ac415e5bac033.png",
     "static/media/me.png": "/React-Portfolio-Website/static/media/me.6f7874192310e980e70f.png",
     "static/media/Lim Sheng Xiang CV.pdf": "/React-Portfolio-Website/static/media/Lim Sheng Xiang CV.74b68a2d6815cef05391.pdf",
@@ -14,10 +14,10 @@
     "static/media/blackjack.png": "/React-Portfolio-Website/static/media/blackjack.6609618f09528b81950f.png",
     "index.html": "/React-Portfolio-Website/index.html",
     "main.37b3fd6c.css.map": "/React-Portfolio-Website/static/css/main.37b3fd6c.css.map",
-    "main.cae2ce35.js.map": "/React-Portfolio-Website/static/js/main.cae2ce35.js.map"
+    "main.1f820ad4.js.map": "/React-Portfolio-Website/static/js/main.1f820ad4.js.map"
   },
   "entrypoints": [
     "static/css/main.37b3fd6c.css",
-    "static/js/main.cae2ce35.js"
+    "static/js/main.1f820ad4.js"
   ]
 }
